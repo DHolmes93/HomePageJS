@@ -1,0 +1,20 @@
+HTML Tags used were:
+ <a>
+<button>
+<span>
+<li>
+<p>
+<ul>
+<h3>
+<footer>
+<nav>
+<h1>
+
+CSS Properties
+background-color
+text-align
+display
+padding
+height
+
+The elements of bootstrapping were implemented within my code to create a more aesthetically pleasing responsive navigation header, throughout the flow of the screens.

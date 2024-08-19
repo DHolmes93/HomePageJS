@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Interests</title>
+    </head>
+    <body>
+        <header class="bg-primary text-white text-center py-3">
+        <h1> My Cool Page </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Cool Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible navbar content-->
+            <div class="collapse-navbar-collapse" id="navbarNav">
+                <!-- Navbar links-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_me.html">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Wisdom</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container text-center my-4">
+        <h2> The Things I Love</h2>
+        <!-- Container for images-->
+        <div class="image-container">
+            <!-- Wrapper for each image -->
+            <div class="image-wrapper">
+                <!-- Image with click event to show modal popup-->
+                <img src="Buffalo_bills_logo_PNG3.png" alt="Football" onclick="togglePopup('football-popup')">
+            </div>
+                <div class="image-wrapper">
+                    <img src="Dallas_mavericks_logo_PNG3.png"  alt="Basketball" onclick="togglePopup('basketball-popup')">
+                </div>
+                <div class="image-wrapper">
+                    <img src="6888606.jpg"  alt="Books" onclick="togglePopup('books-popup')">
+                </div>
+            </div>
+    </main>
+    <footer style="background-color: blue">
+        <p>&copy; 2024 My Cool Page</p>
+    </footer>
+    <!-- Modal popup for football-->
+    <div class="modal fade" id="football-popup" tabindex="1" aria-labelledby="football-popup-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="football-popup-label">Football</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Buffalo Bills fan since 1996
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal popup for basketball -->
+    <div class="modal fade" id="basketball-popup" tabindex="-1" aria-labelledby="basketball-popup-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="basketball-popup-label">Basketball</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Steve Nash and Dirk Nowitzki Made my Childhood
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for books -->
+    <div class="modal fade" id="books-popup" tabindex="-1" aria-labelledby="books-popup-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="books-popup-label">Books</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    An iOS programming book is what introduced me to software development
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript to handle modal popup functionality -->
+    <script>
+       function togglePopup(popupId) {
+        const modal = new bootstrap.Modal(document.getElementById(popupId));
+        modal.show();
+       }
+
+    </script>
+    </body>
+</html>
