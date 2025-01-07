@@ -8,8 +8,8 @@ This website showcases my journey in programming, highlights key projects, and s
 This project was designed to apply and demonstrate the web development concepts learned during the CS50x course. The website includes the following sections:  
 
 - **About Me:** A brief introduction and my journey into programming.  
-- **CS50x Journey:** Key takeaways, favorite assignments, and learning experiences.  
-- **Projects:** Showcases projects completed during CS50x and beyond.  
+- **HomePage:** A Welcome Page with a spinning globe.  
+- **Hobbies:** Showcases projects completed during CS50x and beyond.  
 - **Contact Me:** A form to connect with me or share feedback.  
 
 ## 🛠️ Technologies  
@@ -20,8 +20,6 @@ The website was built using:
 - **CSS3** for styling  
 - **JavaScript** for interactivity  
 - **Bootstrap** for responsive design  
-- **Flask** (optional): If you added backend functionality  
-- **SQLite** (optional): If you integrated a database  
 
 ## 📂 Project Structure  
 
@@ -29,13 +27,9 @@ The website was built using:
 📁 website/  
 ├── 📄 index.html          # Main landing page  
 ├── 📄 about.html          # About Me section  
-├── 📄 projects.html       # Projects overview  
+├── 📄 hobbies.html       # Hobbies of mine  
 ├── 📄 contact.html        # Contact form  
-├── 📁 static/             # CSS, JS, and image assets  
-│   ├── 📁 css/            # Custom stylesheets  
-│   ├── 📁 js/             # Scripts for interactivity  
-│   ├── 📁 images/         # Website images  
-├── 📁 templates/          # HTML templates (if Flask used)  
+├── 📄 styles.css           # CSS, JS, and image assets  
 └── 📄 README.md           # Project documentation (this file)  
 
 
