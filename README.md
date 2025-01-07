@@ -30,7 +30,8 @@ The website was built using:
 ├── 📄 hobbies.html       # Hobbies of mine  
 ├── 📄 contact.html        # Contact form  
 ├── 📄 styles.css           # CSS, JS, and image assets  
-└── 📄 README.md           # Project documentation (this file)  
+└── 📄 README.md           # Project documentation (this file)
+```
 
 
 ## 🚀 Features
@@ -48,11 +49,7 @@ To view the website locally:
    ```bash  
    git clone https://github.com/DHolmes93/HomePageJS.git  
    cd personal-website
-```
-2. Start the server:
-```bash
-flask run  
-```
+   ```
 
 
 ## 📜 License
