@@ -9,7 +9,7 @@ This project was designed to apply and demonstrate the web development concepts 
 
 - **About Me:** A brief introduction and my journey into programming.  
 - **HomePage:** A Welcome Page with a spinning globe.  
-- **Hobbies:** Showcases projects completed during CS50x and beyond.  
+- **Hobbies:** Showcases a few of the things I enjoy in my life.  
 - **Contact Me:** A form to connect with me or share feedback.  
 
 ## 🛠️ Technologies  
